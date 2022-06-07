@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: san-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+/* 
+------------------------------------------------------------------------------------------------------------------------------ 
+*/
+
+header {
+    background: hsl(221, 44%, 41%);
+    padding: 20px;
+    
+}
+header .fa{
+    color: white;
+    font-size: 16px;
+}
+.logo-area {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300px; 
+}
+header .logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .menu {
+    display: inline-block;
+    width:20%;
+    border-right: 1px solid rgba(255,255,255, .3);
+    margin-left: -4px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+header .menu ul li {
+    display: inline-block;
+}
+header .menu a {
+    margin-right: 20px;
+}
+
+header .icon-links{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+header .icon-links .quick-options{
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(255,255,255, .3);
+}
+header .icon-links .privacy{
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+header .icon-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header .search-area {
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    text-align: right;
+}
+
+header .search-area ul li {
+    display: inline-block;
+}
+/* 
+------------------------------------------------------------------------------------------------------------------------------ 
+*/
+
+#toparea {
+    padding: 200px 15px 20px 15px;
+    background: url(https://aroundtownent.com/wp-content/uploads/2020/12/Radio-city-flickr-e1476307197942.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#top-area .profile-info .user-img {
+   padding: 20px;
+   display: inline-block;
+}
+#toparea .profile-info .user-img img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#toparea .profile-info .user-details {
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+#toparea .profile-info .user-details h3 {
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 40px;
+    padding: 13px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+/* #toparea .profile-info .user-details h3{
+    display: inline-block;
+    margin-left: -4px;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    background: rgba(255,255,255, .3);
+} */
+
+.user-details-btn {
+    display: inline;
+    margin-left: -4px;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    background: rgba(255,255,255, .3);
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 6px;
+    transition: background .3s ease-in-out;
+}
+.user-details-btn:hover {
+    background: #2196F3;
+}
+/* 
+------------------------------------------------------------------------------------------------------------------------------ 
+*/
+
+#content-area {
+
+}
+
+#content-area .side-column {
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+
+}
+
+#content-area .main-area {
+    float: left;
+    width: 55%;
+    margin: 0 2.5%;
+   
+}
